@@ -121,7 +121,7 @@ ECHO.
         CLS
         ECHO Reboot Initiated, Rebooting In 10 Seconds.
         TIMEOUT 10
-        shutdown /r /t 2 /soft /c "Hyper-V-Switch Reboot Procedure"
+        shutdown /r /t 5 /soft /c "Hyper-V-Switch Reboot Procedure"
         ECHO  Rebooting In Progress...
         ECHO.
         ECHO  Press Enter To Exit Hyper-V-Switch.
