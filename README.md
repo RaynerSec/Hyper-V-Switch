@@ -4,6 +4,13 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtu
 ## Download
 [![GitHub All Releases](https://img.shields.io/github/downloads/rc-chuah/Hyper-V-Switch/total?style=for-the-badge)](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest)
 
+## Building
+### Building Perquisites
+#### Tool That I Use To Convert Batch File To Exe For Hyper-V-Switch.
+- [Download](https://m.majorgeeks.com/files/details/bat_to_exe_converter.html) Bat To Exe Converter By Faith Kodak
+#### Tool That I Use To Build Setup Wizard Installer For Hyper-V-Switch.
+- [Download](https://jrsoftware.org/isinfo.php) Inno Setup By Jordan Russell And Martijn Laan
+
 ## Features
 ### This Tool Was Made For:
 - Allow Usage Of Virtualization Software Such As (VMware, VirtualBox) While Hyper-V Is Installed (By Disabling It).
