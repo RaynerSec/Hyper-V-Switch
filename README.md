@@ -30,8 +30,8 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtu
 - Accept The UAC Prompt
 - Follow On Screen Usage And You're Done
 #### How To Use Hyper-V-Switch Portable Version
-- Download Hyper-V-Switch-1.0-Portable.zip
-- Unzip Hyper-V-Switch-1.0-Portable.zip
+- Download Hyper-V-Switch-Portable.zip
+- Unzip Hyper-V-Switch-Portable.zip
 - If Your Machine Architecture Is 32 Bit Then Run Hyper-V-Switch-x86.exe
 - If Your Machine Architecture Is 64 Bit Then Run Hyper-V-Switch-x64.exe
 - Accept The UAC Prompt
