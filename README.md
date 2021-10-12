@@ -14,6 +14,8 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtu
 #### Get The Source Code
 - Get The Source Code Either By [Downloading Zip](https://github.com/rc-chuah/Hyper-V-Switch/archive/main.zip) Or Do `git clone https://github.com/rc-chuah/Hyper-V-Switch`
 #### Building Hyper-V-Switch Using Bat To Exe Converter
+- Building Hyper-V-Switch 32 Bit `Bat_To_Exe_Converter /bat Hyper-V-Switch.bat /exe Hyper-V-Switch-x86.exe /uac-admin`
+- Building Hyper-V-Switch 64 Bit `Bat_To_Exe_Converter /bat Hyper-V-Switch.bat /exe Hyper-V-Switch-x64.exe /x64 /uac-admin`
 
 ## Features
 ### This Tool Was Made For:
