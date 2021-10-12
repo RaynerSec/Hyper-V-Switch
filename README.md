@@ -6,12 +6,14 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtu
 
 ## Building
 ### Building Perquisites
-#### Get The Source Code
-- Get The Source Code Either By [Downloading Zip](https://github.com/rc-chuah/Hyper-V-Switch/archive/main.zip) Or Do `git clone https://github.com/rc-chuah/Hyper-V-Switch`
 #### Tool That I Use To Convert Batch File To Exe For Hyper-V-Switch.
 - [Download](https://m.majorgeeks.com/files/details/bat_to_exe_converter.html) Bat To Exe Converter By Faith Kodak
 #### Tool That I Use To Build Setup Wizard Installer For Hyper-V-Switch.
 - [Download](https://jrsoftware.org/isinfo.php) Inno Setup By Jordan Russell And Martijn Laan
+### Building Hyper-V-Switch
+#### Get The Source Code
+- Get The Source Code Either By [Downloading Zip](https://github.com/rc-chuah/Hyper-V-Switch/archive/main.zip) Or Do `git clone https://github.com/rc-chuah/Hyper-V-Switch`
+#### Building Hyper-V-Switch Using Bat To Exe Converter
 
 ## Features
 ### This Tool Was Made For:
