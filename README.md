@@ -17,6 +17,9 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtu
 - Building Hyper-V-Switch 32 Bit `Bat_To_Exe_Converter /bat Hyper-V-Switch.bat /exe Hyper-V-Switch-x86.exe /uac-admin`
 - Building Hyper-V-Switch 64 Bit `Bat_To_Exe_Converter /bat Hyper-V-Switch.bat /exe Hyper-V-Switch-x64.exe /x64 /uac-admin`
 #### Building Hyper-V-Switch Installer Wizard Using Inno Setup
+- Here Is Some Documentation For Building Inno Setup Installer Wizard [Inno Setup Official Documentation](https://jrsoftware.org/ishelp) And [User Manual Installer Creation Using Inno Setup](https://jazzteam.org/en/technical-articles/manual-creating-an-installer-using-inno-setup)
+- You Can Use Inno Setup Script Wizard For Building Hyper-V-Switch Installer Wizard. (For Beginners)
+- You Can Script Inno Setup Script For Scratch. (For Experienced Inno Setup User)
 
 ## Features
 ### This Tool Was Made For:
