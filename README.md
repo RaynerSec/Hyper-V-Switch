@@ -19,7 +19,7 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtu
 #### Building Hyper-V-Switch Installer Wizard Using Inno Setup
 - Here Is Some Documentation For Building Inno Setup Installer Wizard [Inno Setup Official Documentation](https://jrsoftware.org/ishelp) And [User Manual Installer Creation Using Inno Setup](https://jazzteam.org/en/technical-articles/manual-creating-an-installer-using-inno-setup)
 - You Can Use Inno Setup Script Wizard For Building Hyper-V-Switch Installer Wizard. (For Beginners)
-- You Can Script Inno Setup Script For Scratch. (For Experienced Inno Setup Users)
+- You Can Script Inno Setup Script From Scratch. (For Experienced Inno Setup Users)
 
 ## Features
 ### This Tool Was Made For:
