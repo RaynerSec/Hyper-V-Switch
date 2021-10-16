@@ -14,7 +14,7 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtu
 #### Get The Source Code
 - Get The Source Code Either By [Downloading Zip](https://github.com/rc-chuah/Hyper-V-Switch/archive/main.zip) Or Do `git clone https://github.com/rc-chuah/Hyper-V-Switch`
 #### Building Hyper-V-Switch Using Bat To Exe Converter
-- Add Bat To Exe Converter To System Environment Variable Path (Required Run As Administrator) `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /V "Path" /T "REG_SZ" /D "C:\Program Files\Bat To Exe Converter"`
+- Add Bat To Exe Converter To System Environment Variable Path `C:\Program Files\Bat To Exe Converter`
 - Building Hyper-V-Switch 32 Bit `Bat_To_Exe_Converter /bat Hyper-V-Switch.bat /exe Hyper-V-Switch-x86.exe /uac-admin /icon Hyper-V-Switch.ico /workdir 0 /fileversion "1.0.0.0" /productversion "1.0" /productname "Hyper-V-Switch" /originalfilename "Hyper-V-Switch.exe" /description "Hyper-V-Switch" /company "RaynerSec" /copyright "Copyright (C) 2021 RaynerSec. Licensed under the GNU GPL v3.0."`
 - Building Hyper-V-Switch 64 Bit `Bat_To_Exe_Converter /bat Hyper-V-Switch.bat /exe Hyper-V-Switch-x64.exe /x64 /uac-admin /icon Hyper-V-Switch.ico /workdir 0 /fileversion "1.0.0.0" /productversion "1.0" /productname "Hyper-V-Switch" /originalfilename "Hyper-V-Switch.exe" /description "Hyper-V-Switch" /company "RaynerSec" /copyright "Copyright (C) 2021 RaynerSec. Licensed under the GNU GPL v3.0."`
 #### Building Hyper-V-Switch Installer Wizard Using Inno Setup
