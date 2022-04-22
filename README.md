@@ -7,7 +7,7 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtu
 ## Building
 ### Building Perquisites
 #### Visual Studio 2019
-- [Download Visual Studio 2019](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16&src=myvs&utm_medium=microsoft&utm_source=my.visualstudio.com&utm_campaign=download&utm_content=vs+community+2019)
+- [Download Visual Studio 2019](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=download+from+relnotes&utm_content=vs2019ga+button)
 #### Inno Setup
 - [Download Inno Setup](https://jrsoftware.org/isinfo.php)
 ### Building Hyper-V-Switch
