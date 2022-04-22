@@ -6,12 +6,14 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtu
 
 ## Building
 ### Building Perquisites
-#### Visual Studio 2019/2022
+#### Visual Studio 2019
+- [Download Visual Studio 2019](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2019&source=VSLandingPage&cid=2030&passive=false)
 #### Inno Setup
 - [Download](https://jrsoftware.org/isinfo.php) Inno Setup By Jordan Russell And Martijn Laan
 ### Building Hyper-V-Switch
 #### Get The Source Code
 - Get The Source Code Either By [Downloading Zip](https://github.com/rc-chuah/Hyper-V-Switch/archive/main.zip) Or Do `git clone https://github.com/rc-chuah/Hyper-V-Switch`
+- Compile It In Visual Studio
 #### Building Hyper-V-Switch Installer Wizard Using Inno Setup
 - Here Is Some Documentation For Building Inno Setup Installer Wizard [Inno Setup Official Documentation](https://jrsoftware.org/ishelp) And [User Manual Installer Creation Using Inno Setup](https://jazzteam.org/en/technical-articles/manual-creating-an-installer-using-inno-setup)
 - You Can Use Inno Setup Script Wizard For Building Hyper-V-Switch Installer Wizard. (For Beginners)
