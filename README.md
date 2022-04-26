@@ -6,8 +6,8 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtua
 
 ## Building
 ### Building Perquisites
-#### Visual Studio 2019
-- [Download Visual Studio 2019](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=download+from+relnotes&utm_content=vs2019ga+button)
+#### Visual Studio 2019 Or Visual Studio 2022
+- [Download Visual Studio 2019](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=download+from+relnotes&utm_content=vs2019ga+button) Or [Download Visual Studio 2022](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=17)
 ### Building Hyper-V-Switch
 #### Get The Source Code
 - Get The Source Code Either By [Downloading Zip](https://github.com/rc-chuah/Hyper-V-Switch/archive/main.zip) Or Do `git clone https://github.com/rc-chuah/Hyper-V-Switch`
