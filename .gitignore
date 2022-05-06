@@ -10,9 +10,6 @@
 *.userosscache
 *.sln.docstates
 
-# Readme backup files
-README.md.bak
-
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
