@@ -15,41 +15,41 @@
 // Clear Screen Function
 void ClearScreen() {
     HANDLE hStdOut;
-    COORD coordScreen = { 0, 0 };    // home for the cursor
+    COORD coordScreen = { 0, 0 };    // Home For The Cursor
     DWORD cCharsWritten;
     CONSOLE_SCREEN_BUFFER_INFO csbi;
     DWORD dwConSize;
     hStdOut = GetStdHandle(STD_OUTPUT_HANDLE);
-    // Get the number of character cells in the current buffer.
+    // Get The Number Of Character Cells In The Current Buffer.
     if (!GetConsoleScreenBufferInfo(hStdOut, &csbi))
     {
         return;
     }
     dwConSize = csbi.dwSize.X * csbi.dwSize.Y;
-    // Fill the entire screen with blanks.
-    if (!FillConsoleOutputCharacter(hStdOut,         // Handle to console screen buffer
-                                    (TCHAR)' ',      // Character to write to the buffer
-                                    dwConSize,       // Number of cells to write
-                                    coordScreen,     // Coordinates of first cell
-                                    &cCharsWritten)) // Receive number of characters written
+    // Fill The Entire Screen With Blanks.
+    if (!FillConsoleOutputCharacter(hStdOut,         // Handle To Console Screen Buffer
+                                    (TCHAR)' ',      // Character To Write To The Buffer
+                                    dwConSize,       // Number Of Cells To Write
+                                    coordScreen,     // Coordinates Of First Cell
+                                    &cCharsWritten)) // Receive Number Of Characters Written
     {
         return;
     }
-    // Get the current text attribute.
+    // Get The Current Text Attribute.
     if (!GetConsoleScreenBufferInfo(hStdOut, &csbi))
     {
         return;
     }
-    // Set the buffer's attributes accordingly.
-    if (!FillConsoleOutputAttribute(hStdOut,          // Handle to console screen buffer
-                                    csbi.wAttributes, // Character attributes to use
-                                    dwConSize,        // Number of cells to set attribute
-                                    coordScreen,      // Coordinates of first cell
-                                    &cCharsWritten))  // Receive number of characters written
+    // Set The Buffer's Attributes Accordingly.
+    if (!FillConsoleOutputAttribute(hStdOut,          // Handle To Console Screen Buffer
+                                    csbi.wAttributes, // Character Attributes To Use
+                                    dwConSize,        // Number Of Cells To Set Attribute
+                                    coordScreen,      // Coordinates Of First Cell
+                                    &cCharsWritten))  // Receive Number Of Characters Written
     {
         return;
     }
-    // Put the cursor at its home coordinates.
+    // Put The Cursor At Its Home Coordinates.
     SetConsoleCursorPosition(hStdOut, coordScreen);
 }
 
@@ -154,7 +154,7 @@ BOOL GetTrueWindowsVersion(OSVERSIONINFOEX* pOSversion) {
         // Get The Function Pointer To RtlGetVersion
         pRtlGetVersion = (NTSTATUS(WINAPI*)(PRTL_OSVERSIONINFOW))
             GetProcAddress(hNTdllDll, "RtlGetVersion");
-        // If Successfull Then Read The Function
+        // If Successful Then Read The Function
         if (pRtlGetVersion != NULL)
         {
             pRtlGetVersion((PRTL_OSVERSIONINFOW)pOSversion);
