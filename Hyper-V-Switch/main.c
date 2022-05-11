@@ -20,13 +20,13 @@ void ClearScreen() {
     CONSOLE_SCREEN_BUFFER_INFO csbi;
     DWORD dwConSize;
     hStdOut = GetStdHandle(STD_OUTPUT_HANDLE);
-    // Get The Number Of Character Cells In The Current Buffer.
+    // Get The Number Of Character Cells In The Current Buffer
     if (!GetConsoleScreenBufferInfo(hStdOut, &csbi))
     {
         return;
     }
     dwConSize = csbi.dwSize.X * csbi.dwSize.Y;
-    // Fill The Entire Screen With Blanks.
+    // Fill The Entire Screen With Blanks
     if (!FillConsoleOutputCharacter(hStdOut,         // Handle To Console Screen Buffer
                                     (TCHAR)' ',      // Character To Write To The Buffer
                                     dwConSize,       // Number Of Cells To Write
@@ -35,12 +35,12 @@ void ClearScreen() {
     {
         return;
     }
-    // Get The Current Text Attribute.
+    // Get The Current Text Attribute
     if (!GetConsoleScreenBufferInfo(hStdOut, &csbi))
     {
         return;
     }
-    // Set The Buffer's Attributes Accordingly.
+    // Set The Buffer's Attributes Accordingly
     if (!FillConsoleOutputAttribute(hStdOut,          // Handle To Console Screen Buffer
                                     csbi.wAttributes, // Character Attributes To Use
                                     dwConSize,        // Number Of Cells To Set Attribute
@@ -49,7 +49,7 @@ void ClearScreen() {
     {
         return;
     }
-    // Put The Cursor At Its Home Coordinates.
+    // Put The Cursor At Its Home Coordinates
     SetConsoleCursorPosition(hStdOut, coordScreen);
 }
 
