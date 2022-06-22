@@ -1,9 +1,13 @@
 #include <stdio.h>
+#include <Shlwapi.h>
 #include <Windows.h>
 #include "main.h"
 
+// Unresolved External Symbol __imp__StrStrIA@8
+#pragma comment(lib, "Shlwapi.lib")
+
 // Define Program Version
-#define VERSION "v1.0"
+#define VERSION "v1.0.1.0"
 
 // Define Buffer Size
 #define BUF1 4096
@@ -123,10 +127,10 @@ void GetHyperVStatus() {
         }
     }
     // Check Hyper-V Status
-    if (strstr(outbuf, "hypervisorlaunchtype    Auto") != NULL) {
+    if (StrStrIA(outbuf, "hypervisorlaunchtype    auto") != NULL) {
         puts("hypervisorlaunchtype    Auto");
     }
-    else if (strstr(outbuf, "hypervisorlaunchtype    Off") != NULL) {
+    else if (StrStrIA(outbuf, "hypervisorlaunchtype    off") != NULL) {
         puts("hypervisorlaunchtype    Off");
     }
     else {
@@ -202,9 +206,9 @@ void enable() {
     CloseHandle(pi.hThread);
     puts("");
     puts("Hyper-V Status:");
-    puts("----------------------------");
+    puts("-----------------------------");
     GetHyperVStatus();
-    puts("----------------------------");
+    puts("-----------------------------");
     puts("");
     reboot();
 }
@@ -237,9 +241,9 @@ void disable() {
     CloseHandle(pi.hThread);
     puts("");
     puts("Hyper-V Status:");
-    puts("----------------------------");
+    puts("-----------------------------");
     GetHyperVStatus();
-    puts("----------------------------");
+    puts("-----------------------------");
     puts("");
     reboot();
 }
@@ -285,8 +289,6 @@ void reboot() {
         puts("");
         press_enter();
         exit(0);
-
-
     }
     else {
         ClearScreen();
@@ -347,7 +349,7 @@ void info() {
 // Main Function
 int main() {
     char choice[BUF1];
-    SetConsoleTitle(L"Hyper-V-Switch v1.0");
+    SetConsoleTitle(L"Hyper-V-Switch v1.0.1.0");
     while(1) {
         ClearScreen();
         puts("....................................................................................");
@@ -366,9 +368,9 @@ int main() {
         GetWindowsVersion();
         puts("");
         puts("Hyper-V Status:");
-        puts("----------------------------");
+        puts("-----------------------------");
         GetHyperVStatus();
-        puts("----------------------------");
+        puts("-----------------------------");
         puts("");
         puts("  1 - Enable Hyper-V");
         puts("  2 - Disable Hyper-V");
