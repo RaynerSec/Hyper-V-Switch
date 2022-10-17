@@ -34,17 +34,20 @@ winget install --id RaynerSec.Hyper-V-Switch
 winget upgrade --id RaynerSec.Hyper-V-Switch
 ```
 #### How To Use Hyper-V-Switch 32 Bit Installer
-- [Download Mirror 1](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest) | [Download Mirror 2](https://github.com/RaynerSec/Hyper-V-Switch/releases/latest) Hyper-V-Switch 32 Bit Installer
+- Download Hyper-V-Switch 32 Bit Installer
+- [Download Mirror 1](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest) | [Download Mirror 2](https://github.com/RaynerSec/Hyper-V-Switch/releases/latest)
 - Run Hyper-V-Switch 32 Bit Installer
 - Accept The UAC Prompt
 - Follow On Screen Instructions And You're Done
 #### How To Use Hyper-V-Switch 64 Bit Installer
-- [Download Mirror 1](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest) | [Download Mirror 2](https://github.com/RaynerSec/Hyper-V-Switch/releases/latest) Hyper-V-Switch 64 Bit Installer
+- Download Hyper-V-Switch 64 Bit Installer
+- [Download Mirror 1](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest) | [Download Mirror 2](https://github.com/RaynerSec/Hyper-V-Switch/releases/latest)
 - Run Hyper-V-Switch 64 Bit Installer
 - Accept The UAC Prompt
 - Follow On Screen Instructions And You're Done
 #### How To Use Hyper-V-Switch Portable Version
-- [Download Mirror 1](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest) | [Download Mirror 2](https://github.com/RaynerSec/Hyper-V-Switch/releases/latest) Hyper-V-Switch Portable Zip File
+- Download Hyper-V-Switch Portable Zip File
+- [Download Mirror 1](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest) | [Download Mirror 2](https://github.com/RaynerSec/Hyper-V-Switch/releases/latest)
 - Unzip Hyper-V-Switch Portable Zip File
 - If Your Machine Architecture Is 32 Bit Then Run Hyper-V-Switch-x86.exe
 - If Your Machine Architecture Is 64 Bit Then Run Hyper-V-Switch-x64.exe
