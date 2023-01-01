@@ -285,7 +285,7 @@ void reboot() {
         CloseHandle(pi.hThread);
         puts("Rebooting in progress...");
         puts("");
-        puts("Press Enter To Exit Hyper-V-Toggle.");
+        puts("Press Enter To Exit Hyper-V-Switch.");
         puts("");
         press_enter();
         exit(0);
