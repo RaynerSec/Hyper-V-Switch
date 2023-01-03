@@ -6,6 +6,9 @@
 // Unresolved External Symbol __imp__StrStrIA@8
 #pragma comment(lib, "Shlwapi.lib")
 
+// Define Program Title
+#define TITLE L"Hyper-V-Switch v1.0.1.0"
+
 // Define Program Version
 #define VERSION "v1.0.1.0"
 
@@ -349,7 +352,7 @@ void info() {
 // Main Function
 int main() {
     char choice[BUF1];
-    SetConsoleTitle(L"Hyper-V-Switch v1.0.1.0");
+    SetConsoleTitle(TITLE);
     while(1) {
         ClearScreen();
         puts("....................................................................................");
