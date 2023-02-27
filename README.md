@@ -27,11 +27,11 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtua
 #### How To Use Hyper-V-Switch Using WinGet (Windows Package Manager)
 #### Install Hyper-V-Switch
 ```powershell
-winget install --id RaynerSec.Hyper-V-Switch
+winget install --id RaynerSec.Hyper-V-Switch -e
 ```
 #### Update Hyper-V-Switch
 ```powershell
-winget upgrade --id RaynerSec.Hyper-V-Switch
+winget upgrade --id RaynerSec.Hyper-V-Switch -e
 ```
 #### How To Use Hyper-V-Switch 32 Bit Installer
 - Download Hyper-V-Switch 32 Bit Installer
