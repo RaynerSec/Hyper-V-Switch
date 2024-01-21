@@ -7,10 +7,10 @@
 #pragma comment(lib, "Shlwapi.lib")
 
 // Define Program Title
-#define TITLE L"Hyper-V-Switch v1.0.1.0"
+#define TITLE L"Hyper-V-Switch v1.0.2.0"
 
 // Define Program Version
-#define VERSION "v1.0.1.0"
+#define VERSION "v1.0.2.0"
 
 // Define Buffer Size
 #define BUF1 4096
@@ -286,7 +286,7 @@ void reboot() {
         // Close Process And Thread Handles
         CloseHandle(pi.hProcess);
         CloseHandle(pi.hThread);
-        puts("Rebooting in progress...");
+        puts("Rebooting In Progress...");
         puts("");
         puts("Press Enter To Exit Hyper-V-Switch.");
         puts("");
