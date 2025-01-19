@@ -33,16 +33,16 @@ winget install --id RaynerSec.Hyper-V-Switch -e
 ```powershell
 winget upgrade --id RaynerSec.Hyper-V-Switch -e
 ```
-#### How To Use Hyper-V-Switch 32 Bit Installer
-- Download Hyper-V-Switch 32 Bit Installer
+#### How To Use Hyper-V-Switch 32 Bit (x86) Installer
+- Download Hyper-V-Switch 32 Bit (x86) Installer
 - [Download Mirror 1](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest) | [Download Mirror 2](https://github.com/RaynerSec/Hyper-V-Switch/releases/latest)
-- Run Hyper-V-Switch 32 Bit Installer
+- Run Hyper-V-Switch 32 Bit (x86) Installer
 - Accept The UAC Prompt
 - Follow On Screen Instructions And You're Done
-#### How To Use Hyper-V-Switch 64 Bit Installer
-- Download Hyper-V-Switch 64 Bit Installer
+#### How To Use Hyper-V-Switch 64 Bit (x64) Installer
+- Download Hyper-V-Switch 64 Bit (x64) Installer
 - [Download Mirror 1](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest) | [Download Mirror 2](https://github.com/RaynerSec/Hyper-V-Switch/releases/latest)
-- Run Hyper-V-Switch 64 Bit Installer
+- Run Hyper-V-Switch 64 Bit (x64) Installer
 - Accept The UAC Prompt
 - Follow On Screen Instructions And You're Done
 #### How To Use Hyper-V-Switch Portable Version
@@ -51,7 +51,10 @@ winget upgrade --id RaynerSec.Hyper-V-Switch -e
 - Download Hyper-V-Switch Portable Zip File
 - [Download Mirror 1](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest) | [Download Mirror 2](https://github.com/RaynerSec/Hyper-V-Switch/releases/latest)
 - Unzip Hyper-V-Switch Portable Zip File
-- If Your Machine Architecture Is 32 Bit Then Run Hyper-V-Switch-x86.exe
-- If Your Machine Architecture Is 64 Bit Then Run Hyper-V-Switch-x64.exe
+- If Your Machine Architecture Is 32 Bit (x86) Then Run Hyper-V-Switch-x86.exe
+- If Your Machine Architecture Is 64 Bit (x64) Then Run Hyper-V-Switch-x64.exe
+- If Your Machine Architecture Is 32 Bit (Arm32) Then Run Hyper-V-Switch-Arm32.exe (Coming Soon)
+- If Your Machine Architecture Is 64 Bit (Arm64) Then Run Hyper-V-Switch-Arm64.exe (Coming Soon)
+- If Your Machine Architecture Is 64 Bit (Arm64) That Supports (Arm64EC) Then Run Hyper-V-Switch-Arm64EC.exe (Coming Soon)
 - Accept The UAC Prompt
 - Follow On Screen Usage And You're Done
