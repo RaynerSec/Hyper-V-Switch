@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <Shlwapi.h>
-#include <Windows.h>
+#include <shlwapi.h>
+#include <windows.h>
 #include "main.h"
 
 // Unresolved External Symbol __imp__StrStrIA@8
-#pragma comment(lib, "Shlwapi.lib")
+#pragma comment(lib, "shlwapi.lib")
 
 // Define Program Title
 #define TITLE L"Hyper-V-Switch v1.0.2.0"
