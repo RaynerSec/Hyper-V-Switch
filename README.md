@@ -58,3 +58,6 @@ winget upgrade --id RaynerSec.Hyper-V-Switch -e
 - If Your Machine Architecture Is 64 Bit (Arm64) That Supports (Arm64EC) Then Run Hyper-V-Switch-Arm64EC.exe (Coming Soon)
 - Accept The UAC Prompt
 - Follow On Screen Usage And You're Done
+
+## Special Thanks
+Thanks To [AdvancedInstaller](https://www.advancedinstaller.com) For Providing A Professional License For Free For This Project.
