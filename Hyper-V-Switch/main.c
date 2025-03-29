@@ -209,9 +209,9 @@ void enable() {
     CloseHandle(pi.hThread);
     puts("");
     puts("Hyper-V Status:");
-    puts("-----------------------------");
+    puts("-------------------------------");
     GetHyperVStatus();
-    puts("-----------------------------");
+    puts("-------------------------------");
     puts("");
     reboot();
 }
@@ -244,9 +244,9 @@ void disable() {
     CloseHandle(pi.hThread);
     puts("");
     puts("Hyper-V Status:");
-    puts("-----------------------------");
+    puts("-------------------------------");
     GetHyperVStatus();
-    puts("-----------------------------");
+    puts("-------------------------------");
     puts("");
     reboot();
 }
@@ -371,9 +371,9 @@ int main() {
         GetWindowsVersion();
         puts("");
         puts("Hyper-V Status:");
-        puts("-----------------------------");
+        puts("-------------------------------");
         GetHyperVStatus();
-        puts("-----------------------------");
+        puts("-------------------------------");
         puts("");
         puts("  1 - Enable Hyper-V");
         puts("  2 - Disable Hyper-V");
