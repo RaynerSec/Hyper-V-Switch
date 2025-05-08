@@ -53,11 +53,12 @@ winget upgrade --id RaynerSec.Hyper-V-Switch -e
 - Unzip Hyper-V-Switch Portable Zip File
 - If Your Machine Architecture Is 32 Bit (x86) Then Run Hyper-V-Switch-x86.exe
 - If Your Machine Architecture Is 64 Bit (x64) Then Run Hyper-V-Switch-x64.exe
-- If Your Machine Architecture Is 32 Bit (Arm32) Then Run Hyper-V-Switch-Arm32.exe (Coming Soon)
-- If Your Machine Architecture Is 64 Bit (Arm64) Then Run Hyper-V-Switch-Arm64.exe (Coming Soon)
-- If Your Machine Architecture Is 64 Bit (Arm64) That Supports (Arm64EC) Then Run Hyper-V-Switch-Arm64EC.exe (Coming Soon)
+- If Your Machine Architecture Is 32 Bit (Arm32) Then Run Hyper-V-Switch-Arm32.exe
+- If Your Machine Architecture Is 64 Bit (Arm64) Then Run Hyper-V-Switch-Arm64.exe
+- If Your Machine Architecture Is 64 Bit (Arm64) That Supports (Arm64EC) Then Run Hyper-V-Switch-Arm64EC.exe
 - Accept The UAC Prompt
 - Follow On Screen Usage And You're Done
 
 ## Special Thanks
-Thanks To [AdvancedInstaller](https://www.advancedinstaller.com) For Providing A Professional License For Free For This Project.
+Thanks To [Advanced Installer](https://www.advancedinstaller.com) For Providing A Professional License For Free For This Project.
+Thanks To [Han-soft](https://www.han-soft.com) For Providing [UninsHs](https://www.han-soft.com/uninshs.php) For Free For This Project.
