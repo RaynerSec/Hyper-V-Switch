@@ -154,7 +154,7 @@ BOOL GetTrueWindowsVersion(OSVERSIONINFOEX* pOSversion) {
     NTSTATUS(WINAPI * pRtlGetVersion)(
         PRTL_OSVERSIONINFOW lpVersionInformation) = NULL;
     // Load The System-DLL
-    HINSTANCE hNTdllDll = LoadLibrary(L"ntdll.dll");
+    HINSTANCE hNTdllDll = LoadLibraryEx(L"ntdll.dll", NULL, LOAD_LIBRARY_SEARCH_SYSTEM32);
     // Successfully Loaded?
     if (hNTdllDll != NULL)
     {
@@ -209,9 +209,9 @@ void enable() {
     CloseHandle(pi.hThread);
     puts("");
     puts("Hyper-V Status:");
-    puts("-------------------------------");
+    puts("---------------------------------------");
     GetHyperVStatus();
-    puts("-------------------------------");
+    puts("---------------------------------------");
     puts("");
     reboot();
 }
@@ -244,9 +244,9 @@ void disable() {
     CloseHandle(pi.hThread);
     puts("");
     puts("Hyper-V Status:");
-    puts("-------------------------------");
+    puts("---------------------------------------");
     GetHyperVStatus();
-    puts("-------------------------------");
+    puts("---------------------------------------");
     puts("");
     reboot();
 }
@@ -275,9 +275,24 @@ void reboot() {
             {
                 if (!CreateProcess(L"C:\\Windows\\SysArm32\\shutdown.exe", L"C:\\Windows\\SysArm32\\shutdown.exe /r /t 10 /soft", NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
                 {
-                    puts("Error: CreateProcess Failed!");
-                    printf("Error Code: %d\n", GetLastError());
-                    return;
+                    if (!CreateProcess(L"C:\\Windows\\SysX8664\\shutdown.exe", L"C:\\Windows\\SysX8664\\shutdown.exe /r /t 10 /soft", NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
+                    {
+                        if (!CreateProcess(L"C:\\Windows\\SysArm64\\shutdown.exe", L"C:\\Windows\\SysArm64\\shutdown.exe /r /t 10 /soft", NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
+                        {
+                            if (!CreateProcess(L"C:\\Windows\\SyChpe32\\shutdown.exe", L"C:\\Windows\\SyChpe32\\shutdown.exe /r /t 10 /soft", NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
+                            {
+                                if (!CreateProcess(L"C:\\Windows\\SyChpe64\\shutdown.exe", L"C:\\Windows\\SyChpe64\\shutdown.exe /r /t 10 /soft", NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
+                                {
+                                    if (!CreateProcess(L"C:\\Windows\\Sysnative\\shutdown.exe", L"C:\\Windows\\Sysnative\\shutdown.exe /r /t 10 /soft", NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
+                                    {
+                                        puts("Error: CreateProcess Failed!");
+                                        printf("Error Code: %d\n", GetLastError());
+                                        return;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -371,9 +386,9 @@ int main() {
         GetWindowsVersion();
         puts("");
         puts("Hyper-V Status:");
-        puts("-------------------------------");
+        puts("---------------------------------------");
         GetHyperVStatus();
-        puts("-------------------------------");
+        puts("---------------------------------------");
         puts("");
         puts("  1 - Enable Hyper-V");
         puts("  2 - Disable Hyper-V");
