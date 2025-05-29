@@ -130,10 +130,10 @@ void GetHyperVStatus() {
         }
     }
     // Check Hyper-V Status
-    if (StrStrIA(outbuf, "hypervisorlaunchtype    auto") != NULL) {
+    if (StrStrIA(outbuf, "hypervisorlaunchtype    Auto") != NULL) {
         puts("hypervisorlaunchtype    Auto");
     }
-    else if (StrStrIA(outbuf, "hypervisorlaunchtype    off") != NULL) {
+    else if (StrStrIA(outbuf, "hypervisorlaunchtype    Off") != NULL) {
         puts("hypervisorlaunchtype    Off");
     }
     else {
