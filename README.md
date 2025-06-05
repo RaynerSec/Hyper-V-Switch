@@ -53,11 +53,25 @@ winget upgrade --id RaynerSec.Hyper-V-Switch -e
 - Unzip Hyper-V-Switch Portable Zip File
 - If Your Machine Architecture Is 32 Bit (x86) Then Run Hyper-V-Switch-x86.exe
 - If Your Machine Architecture Is 64 Bit (x64) Then Run Hyper-V-Switch-x64.exe
-- If Your Machine Architecture Is 32 Bit (Arm32) Then Run Hyper-V-Switch-Arm32.exe
 - If Your Machine Architecture Is 64 Bit (Arm64) Then Run Hyper-V-Switch-Arm64.exe
-- If Your Machine Architecture Is 64 Bit (Arm64) That Supports (Arm64EC) Then Run Hyper-V-Switch-Arm64EC.exe
+- If Your Machine Architecture Is 64 Bit (Arm64) That Supports (Arm64EC And/Or Arm64X) Then Run Hyper-V-Switch-Arm64EC-Arm64X.exe
 - Accept The UAC Prompt
 - Follow On Screen Usage And You're Done
+
+## Star History
+<a href="https://www.star-history.com/#rc-chuah/Hyper-V-Switch&RaynerSec/Hyper-V-Switch&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rc-chuah/Hyper-V-Switch,RaynerSec/Hyper-V-Switch&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rc-chuah/Hyper-V-Switch,RaynerSec/Hyper-V-Switch&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rc-chuah/Hyper-V-Switch,RaynerSec/Hyper-V-Switch&type=Date" />
+ </picture>
+</a>
+
+## Stargazers Over Time (Mirror 1)
+[![Stargazers Over Time](https://starchart.cc/rc-chuah/Hyper-V-Switch.svg?variant=adaptive)](https://starchart.cc/rc-chuah/Hyper-V-Switch)
+
+## Stargazers Over Time (Mirror 2)
+[![Stargazers Over Time](https://starchart.cc/RaynerSec/Hyper-V-Switch.svg?variant=adaptive)](https://starchart.cc/RaynerSec/Hyper-V-Switch)
 
 ## Special Thanks
 - Thanks To [Advanced Installer](https://www.advancedinstaller.com) For Providing A Professional License For Free For This Project.
