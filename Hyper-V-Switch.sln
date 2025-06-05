@@ -1,26 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hyper-V-Switch", "Hyper-V-Switch\Hyper-V-Switch.vcxproj", "{D154D3CD-A223-455F-A00A-84BC35ECCAFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|ARM = Debug|ARM
 		Debug|ARM64 = Debug|ARM64
 		Debug|ARM64EC = Debug|ARM64EC
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
-		Release|ARM = Release|ARM
 		Release|ARM64 = Release|ARM64
 		Release|ARM64EC = Release|ARM64EC
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Debug|ARM.ActiveCfg = Debug|ARM
-		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Debug|ARM.Build.0 = Debug|ARM
 		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Debug|ARM64.ActiveCfg = Debug|ARM64
 		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Debug|ARM64.Build.0 = Debug|ARM64
 		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Debug|ARM64EC.ActiveCfg = Debug|ARM64EC
@@ -29,8 +25,6 @@ Global
 		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Debug|Win32.Build.0 = Debug|Win32
 		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Debug|x64.ActiveCfg = Debug|x64
 		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Debug|x64.Build.0 = Debug|x64
-		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Release|ARM.ActiveCfg = Release|ARM
-		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Release|ARM.Build.0 = Release|ARM
 		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Release|ARM64.ActiveCfg = Release|ARM64
 		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Release|ARM64.Build.0 = Release|ARM64
 		{D154D3CD-A223-455F-A00A-84BC35ECCAFF}.Release|ARM64EC.ActiveCfg = Release|ARM64EC
