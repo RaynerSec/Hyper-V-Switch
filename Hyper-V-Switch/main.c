@@ -305,6 +305,8 @@ void reboot() {
         puts("");
         puts("Press Enter To Exit Hyper-V-Switch.");
         puts("");
+        puts("Thank You For Using This Program, Have A Nice Day :)");
+        puts("");
         press_enter();
         exit(0);
     }
@@ -316,6 +318,8 @@ void reboot() {
         puts("Going Back To The Main Menu...");
         puts("");
         puts("Press Enter To Go Back To The Main Menu.");
+        puts("");
+        puts("Thank You For Using This Program, Have A Nice Day :)");
         puts("");
         press_enter();
         main();
