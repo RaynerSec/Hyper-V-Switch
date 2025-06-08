@@ -58,12 +58,21 @@ winget upgrade --id RaynerSec.Hyper-V-Switch -e
 - Accept The UAC Prompt
 - Follow On Screen Usage And You're Done
 
-## Star History
-<a href="https://www.star-history.com/#rc-chuah/Hyper-V-Switch&RaynerSec/Hyper-V-Switch&Date">
+## Star History (Mirror 1)
+<a href="https://www.star-history.com/#rc-chuah/Hyper-V-Switch&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rc-chuah/Hyper-V-Switch,RaynerSec/Hyper-V-Switch&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rc-chuah/Hyper-V-Switch,RaynerSec/Hyper-V-Switch&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rc-chuah/Hyper-V-Switch,RaynerSec/Hyper-V-Switch&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rc-chuah/Hyper-V-Switch&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rc-chuah/Hyper-V-Switch&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rc-chuah/Hyper-V-Switch&type=Date" />
+ </picture>
+</a>
+
+## Star History (Mirror 2)
+<a href="https://www.star-history.com/#RaynerSec/Hyper-V-Switch&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=RaynerSec/Hyper-V-Switch&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=RaynerSec/Hyper-V-Switch&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=RaynerSec/Hyper-V-Switch&type=Date" />
  </picture>
 </a>
 
