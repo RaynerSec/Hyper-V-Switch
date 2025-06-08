@@ -80,7 +80,7 @@ void GetHyperVStatus() {
     HANDLE g_hChildStd_OUT_Rd = NULL;
     HANDLE g_hChildStd_OUT_Wr = NULL;
     DWORD dwRead;
-    char chBuf[BUF4];
+    char chBuf[BUF4] = { 0 };
     char outbuf[BUF5] = { 0 };
     ZeroMemory(&sa, sizeof(sa));
     sa.nLength = sizeof(sa);
@@ -176,9 +176,16 @@ BOOL GetTrueWindowsVersion(OSVERSIONINFOEX* pOSversion) {
 // Get Windows Version Function
 void GetWindowsVersion() {
     OSVERSIONINFOEXW osInfo;
+    ZeroMemory(&osInfo, sizeof(osInfo));
     osInfo.dwOSVersionInfoSize = sizeof(osInfo);
     GetTrueWindowsVersion(&osInfo);
-    printf("Windows Version: %d.%d.%d\n", osInfo.dwMajorVersion, osInfo.dwMinorVersion, osInfo.dwBuildNumber);
+    DWORD dwUBR = 0;
+    DWORD dataSize = sizeof(dwUBR);
+    if (RegGetValue(HKEY_LOCAL_MACHINE, L"SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion", L"UBR", RRF_RT_REG_DWORD | RRF_SUBKEY_WOW6464KEY, NULL, &dwUBR, &dataSize) != ERROR_SUCCESS)
+    {
+        dwUBR = 0; // Default To 0 If UBR Is Not Found
+    }
+    printf("Windows Version: %d.%d.%d.%d\n", osInfo.dwMajorVersion, osInfo.dwMinorVersion, osInfo.dwBuildNumber, dwUBR);
 }
 
 // Enable Hyper-V Function
