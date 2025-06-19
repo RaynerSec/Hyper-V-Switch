@@ -5,6 +5,16 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtua
 [![GitHub All Releases](https://img.shields.io/github/downloads/rc-chuah/Hyper-V-Switch/total?label=MIRROR%201%20DOWNLOADS&style=for-the-badge&color=brightgreen)](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest)
 [![GitHub All Releases](https://img.shields.io/github/downloads/RaynerSec/Hyper-V-Switch/total?label=MIRROR%202%20DOWNLOADS&style=for-the-badge&color=brightgreen)](https://github.com/RaynerSec/Hyper-V-Switch/releases/latest)
 
+## Open Source Maintenance Fee
+
+<a href="https://opensourcemaintenancefee.org/"><img src="./assets/images/osmf/osmf-logo-square-dark.png" height="146" align="right" /></a>
+
+To Ensure The Long-Term Sustainability Of This Project, Use Of The Hyper-V-Switch Requires An [Open Source Maintenance Fee](https://opensourcemaintenancefee.org). While The Source Code Is Freely Available Under The Terms Of The [LICENSE](./LICENSE), All Other Aspects of The Project--Including Opening Or Commenting On Issues, Participating In Discussions And Downloading Releases--Require [Adherence To The Maintenance Fee](./OSMFEULA.txt).
+
+In Short, If You Use This Project To Generate Revenue, The [Maintenance Fee Is Required](./OSMFEULA.txt).
+
+To Pay The Maintenance Fee, [Become A Sponsor](https://github.com/sponsors/raynersec).
+
 ## Building
 ### Building Perquisites
 #### Visual Studio
