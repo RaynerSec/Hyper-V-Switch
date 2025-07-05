@@ -1,0 +1,24 @@
+name: "Bug Report"
+description: File A Bug Report
+title: "[Bug]: "
+labels: ["Help-Wanted","Bug","Needs-Triage"]
+assignees: rc-chuah
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks For Taking The Time To Fill Out This Bug Report!
+  - type: checkboxes
+    attributes:
+      label: Is There An Existing Issue For This?
+      description: Please Search To See If An Issue Already Exists For The Bug You Noticed.
+      options:
+        - label: I Have Searched The Existing Issues
+          required: true
+  - type: textarea
+    attributes:
+      label: What Happened?
+      description: Also Tell Us, What Did You Expect To Happen?
+      placeholder: Tell Us What You See!
+    validations:
+      required: true

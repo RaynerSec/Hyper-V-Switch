@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Review Open Issues (Mirror 1)
+    url: https://github.com/rc-chuah/Hyper-V-Switch/issues
+    about: Please Ensure You Have Gone Through Open Issues.
+  - name: Review Open Issues (Mirror 2)
+    url: https://github.com/RaynerSec/Hyper-V-Switch/issues
+    about: Please Ensure You Have Gone Through Open Issues.

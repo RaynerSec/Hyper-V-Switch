@@ -1,0 +1,17 @@
+name: "Feature Request"
+description: Request A New Feature
+title: "[Feature/Idea]: "
+labels: ["Help-Wanted","Improvement","New-Feature","Enhancement","Needs-Triage"]
+assignees: rc-chuah
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks For Taking The Time To Request A New Feature!
+  - type: textarea
+    attributes:
+      label: What Would You Like To See Changed/Added?
+      description: Try To Give Some Examples To Make It Really Clear!
+      placeholder: Tell Us What You Would Like To See! Something New And Amazing!
+    validations:
+      required: true

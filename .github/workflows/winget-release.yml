@@ -1,0 +1,13 @@
+name: Publish To WinGet
+on:
+  release:
+    types: [released, published]
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: vedantmgoyal9/winget-releaser@main
+        with:
+          identifier: RaynerSec.Hyper-V-Switch
+          installers-regex: 'Hyper-V-Switch-*-Setup\.exe$'
+          token: ${{ secrets.WINGET_TOKEN }}

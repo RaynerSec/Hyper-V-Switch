@@ -1,0 +1,14 @@
+# These Are Supported Funding Model Platforms
+github: [rc-chuah, raynersec, mmo-org-my, rayner-iot-solutions] # Replace With Up To 4 GitHub Sponsors-Enabled Usernames E.g., [User1, User2]
+patreon: rc_chuah # Replace With A Single Patreon Username
+open_collective: rc-chuah # Replace With A Single Open Collective Username
+ko_fi: rc_chuah # Replace With A Single Ko-Fi Username
+tidelift: # Replace With A Single Tidelift Platform-Name/Package-Name E.g., Npm/Babel
+community_bridge: Hyper-V-Switch # Replace With A Single Community Bridge Project-Name E.g., Cloud-Foundry
+liberapay: rc-chuah # Replace With A Single Liberapay Username
+issuehunt: rc-chuah # Replace With A Single IssueHunt Username
+lfx_crowdfunding: Hyper-V-Switch # Replace With A Single LFX Crowdfunding Project-Name E.g., Cloud-Foundry
+polar: raynersec # Replace With A Single Polar Username
+buy_me_a_coffee: rcchuah # Replace With A Single Buy Me A Coffee Username
+thanks_dev: u/gh/rc-chuah # Replace With A Single Thanks.Dev Username
+custom: ["https://flattr.com/@rc-chuah"] # Replace With Up To 4 Custom Sponsorship URLs E.g., ["Link1", "Link2"]
