@@ -105,6 +105,4 @@ winget upgrade --id RaynerSec.Hyper-V-Switch -e
 
 [![GNU GPLv3 Logo](https://www.gnu.org/graphics/gplv3-or-later.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)
 
-Hyper-V-Switch Is Free Software: You Can Use, Study Share And Improve It At Your Will. Specifically You Can Redistribute And/Or
-Modify It Under The Terms Of The [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.en.html) As Published
-By The Free Software Foundation, Either Version 3 Of The License, Or (At Your Option) Any Later Version.
+Hyper-V-Switch Is Free Software: You Can Use, Study Share And Improve It At Your Will. Specifically You Can Redistribute And/Or Modify It Under The Terms Of The [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.en.html) As Published By The Free Software Foundation, Either Version 3 Of The License, Or (At Your Option) Any Later Version.
