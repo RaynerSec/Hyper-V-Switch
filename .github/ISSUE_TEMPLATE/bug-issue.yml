@@ -1,7 +1,7 @@
 name: "Bug Report"
 description: File A Bug Report
 title: "[Bug]: "
-labels: ["help wanted","bug"]
+labels: ["bug","help wanted"]
 assignees: rc-chuah
 body:
   - type: markdown

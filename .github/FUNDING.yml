@@ -7,8 +7,8 @@ tidelift: # Replace With A Single Tidelift Platform-Name/Package-Name E.g., Npm/
 community_bridge: Hyper-V-Switch # Replace With A Single Community Bridge Project-Name E.g., Cloud-Foundry
 liberapay: rc-chuah # Replace With A Single Liberapay Username
 issuehunt: rc-chuah # Replace With A Single IssueHunt Username
-lfx_crowdfunding: Hyper-V-Switch # Replace With A Single LFX Crowdfunding Project-Name E.g., Cloud-Foundry
+lfx_crowdfunding: # Replace With A Single LFX Crowdfunding Project-Name E.g., Cloud-Foundry
 polar: raynersec # Replace With A Single Polar Username
 buy_me_a_coffee: rcchuah # Replace With A Single Buy Me A Coffee Username
 thanks_dev: u/gh/rc-chuah # Replace With A Single Thanks.Dev Username
-custom: ["https://flattr.com/@rc-chuah"] # Replace With Up To 4 Custom Sponsorship URLs E.g., ["Link1", "Link2"]
+custom: # Replace With Up To 4 Custom Sponsorship URLs E.g., ["Link1", "Link2"]
