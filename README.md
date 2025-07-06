@@ -7,7 +7,7 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtua
 
 ## Open Source Maintenance Fee
 
-<a href="https://opensourcemaintenancefee.org/"><img src="./assets/images/osmf/osmf-logo-wide-dark.png" height="1460" width="2360" align="center" /></a>
+<a href="https://opensourcemaintenancefee.org/"><img src="./assets/images/osmf/osmf-logo-dark.png" align="center" /></a>
 
 To Ensure The Long-Term Sustainability Of This Project, Use Of The Hyper-V-Switch Requires An [Open Source Maintenance Fee](https://opensourcemaintenancefee.org). While The Source Code Is Freely Available Under The Terms Of The [LICENSE](./LICENSE.txt), All Other Aspects of The Project--Including Opening Or Commenting On Issues, Participating In Discussions And Downloading Releases--Require [Adherence To The Maintenance Fee](./OSMFEULA.txt).
 
