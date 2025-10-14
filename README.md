@@ -15,6 +15,30 @@ In Short, If You Use This Project To Generate Revenue, The [Maintenance Fee Is R
 
 To Pay The Maintenance Fee, [Become A Sponsor](https://github.com/sponsors/raynersec).
 
+## Pushes And Commits Of Repository (Mirror 1)
+<!-- Copy-Paste In Your README.md File -->
+
+<a href="https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month?repo_id=398264936" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=398264936&image_size=auto&color_scheme=dark" width="721" height="auto">
+    <img alt="Pushes and Commits of rc-chuah/Hyper-V-Switch" src="https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=398264936&image_size=auto&color_scheme=light" width="721" height="auto">
+  </picture>
+</a>
+
+<!-- Made With [OSS Insight](https://ossinsight.io/) -->
+
+## Pushes And Commits Of Repository (Mirror 2)
+<!-- Copy-Paste In Your README.md File -->
+
+<a href="https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month?repo_id=489368594" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=489368594&image_size=auto&color_scheme=dark" width="721" height="auto">
+    <img alt="Pushes and Commits of RaynerSec/Hyper-V-Switch" src="https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=489368594&image_size=auto&color_scheme=light" width="721" height="auto">
+  </picture>
+</a>
+
+<!-- Made With [OSS Insight](https://ossinsight.io/) -->
+
 ## Building
 ### Building Perquisites
 #### Visual Studio
@@ -97,6 +121,54 @@ winget upgrade --id RaynerSec.Hyper-V-Switch -e
 
 ## 🌟 Stargazers Over Time (Mirror 2) 👀
 [![Stargazers Over Time](https://starchart.cc/RaynerSec/Hyper-V-Switch.svg?variant=adaptive)](https://starchart.cc/RaynerSec/Hyper-V-Switch)
+
+## 🌟 Star Chart / Star Graph (Mirror 1) ⭐
+<!-- Copy-Paste In Your README.md File -->
+
+<a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history?repo_id=398264936" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=398264936&image_size=auto&color_scheme=dark" width="721" height="auto">
+    <img alt="Star History of rc-chuah/Hyper-V-Switch" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=398264936&image_size=auto&color_scheme=light" width="721" height="auto">
+  </picture>
+</a>
+
+<!-- Made With [OSS Insight](https://ossinsight.io/) -->
+
+## 🌟 Star Chart / Star Graph (Mirror 2) ⭐
+<!-- Copy-Paste In Your README.md File -->
+
+<a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history?repo_id=489368594" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=489368594&image_size=auto&color_scheme=dark" width="721" height="auto">
+    <img alt="Star History of RaynerSec/Hyper-V-Switch" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=489368594&image_size=auto&color_scheme=light" width="721" height="auto">
+  </picture>
+</a>
+
+<!-- Made With [OSS Insight](https://ossinsight.io/) -->
+
+## ⭐ Star Geographical Distribution Map (Mirror 1) 🌟
+<!-- Copy-Paste In Your README.md File -->
+
+<a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map?repo_id=398264936&activity=stars" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?repo_id=398264936&activity=stars&image_size=auto&color_scheme=dark" width="721" height="auto">
+    <img alt="Star Geographical Distribution of rc-chuah/Hyper-V-Switch" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?repo_id=398264936&activity=stars&image_size=auto&color_scheme=light" width="721" height="auto">
+  </picture>
+</a>
+
+<!-- Made With [OSS Insight](https://ossinsight.io/) -->
+
+## ⭐ Star Geographical Distribution Map (Mirror 2) 🌟
+<!-- Copy-Paste In Your README.md File -->
+
+<a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map?repo_id=489368594&activity=stars" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?repo_id=489368594&activity=stars&image_size=auto&color_scheme=dark" width="721" height="auto">
+    <img alt="Star Geographical Distribution of RaynerSec/Hyper-V-Switch" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?repo_id=489368594&activity=stars&image_size=auto&color_scheme=light" width="721" height="auto">
+  </picture>
+</a>
+
+<!-- Made With [OSS Insight](https://ossinsight.io/) -->
 
 ## Special Thanks
 - Thanks To [Advanced Installer](https://www.advancedinstaller.com) For Providing A Professional License For Free For This Project.
