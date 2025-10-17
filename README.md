@@ -5,16 +5,6 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtua
 [![GitHub All Releases](https://img.shields.io/github/downloads/rc-chuah/Hyper-V-Switch/total?label=MIRROR%201%20DOWNLOADS&style=for-the-badge&color=brightgreen)](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest)
 [![GitHub All Releases](https://img.shields.io/github/downloads/RaynerSec/Hyper-V-Switch/total?label=MIRROR%202%20DOWNLOADS&style=for-the-badge&color=brightgreen)](https://github.com/RaynerSec/Hyper-V-Switch/releases/latest)
 
-## Open Source Maintenance Fee
-
-<a href="https://opensourcemaintenancefee.org/"><img src="./assets/images/osmf/osmf-logo-dark.png" align="center" /></a>
-
-To Ensure The Long-Term Sustainability Of This Project, Use Of The Hyper-V-Switch Requires An [Open Source Maintenance Fee](https://opensourcemaintenancefee.org). While The Source Code Is Freely Available Under The Terms Of The [LICENSE](./LICENSE.txt), All Other Aspects of The Project--Including Opening Or Commenting On Issues, Participating In Discussions And Downloading Releases--Require [Adherence To The Maintenance Fee](./OSMFEULA.txt).
-
-In Short, If You Use This Project To Generate Revenue, The [Maintenance Fee Is Required](./OSMFEULA.txt).
-
-To Pay The Maintenance Fee, [Become A Sponsor](https://github.com/sponsors/raynersec).
-
 ## Pushes And Commits Of Repository (Mirror 1)
 <!-- Copy-Paste In Your README.md File -->
 
@@ -94,7 +84,8 @@ winget upgrade --id RaynerSec.Hyper-V-Switch -e
 
 ## How Can I Support Hyper-V-Switch? ❤️
 - ⭐ Star This Project! :)
-- 🤝 Sponsor This Project Through [GitHub Sponsors](https://github.com/sponsors/rc-chuah)
+- 🤝 Sponsor This Project Through [GitHub Sponsors (Mirror 1)](https://github.com/sponsors/rc-chuah)
+- 🤝 Sponsor This Project Through [GitHub Sponsors (Mirror 2)](https://github.com/sponsors/raynersec)
 - 🧑‍💻 Use Hyper-V-Switch And [Create An Issue (Mirror 1)](https://github.com/rc-chuah/Hyper-V-Switch/issues/new) For Feature Requests Or Bugs.
 - 🧑‍💻 Use Hyper-V-Switch And [Create An Issue (Mirror 2)](https://github.com/RaynerSec/Hyper-V-Switch/issues/new) For Feature Requests Or Bugs.
 
