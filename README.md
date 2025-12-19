@@ -32,7 +32,7 @@ This Program Enables And Disables Hyper-V Hypervisor So You Can Use Other Virtua
 ## Building
 ### Building Perquisites
 #### Visual Studio
-- Visual Studio 2022 Or Later
+- Visual Studio 2026 Or Later
 ### Building Hyper-V-Switch
 #### Get The Source Code
 - Get The Source Code Either By Downloading Zip From Mirror 1 [Download Zip](https://github.com/rc-chuah/Hyper-V-Switch/archive/main.zip) Or Do `git clone https://github.com/rc-chuah/Hyper-V-Switch`
@@ -70,8 +70,8 @@ winget upgrade --id RaynerSec.Hyper-V-Switch -e
 - Accept The UAC Prompt
 - Follow On Screen Instructions And You're Done
 #### How To Use Hyper-V-Switch Portable Version
-- Download And Install The Latest Microsoft Visual C/C++ Redistributable 2015-2022 (x86/x64) (Required)
-- [Download 32 Bit (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe) | [Download 64 Bit (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+- Download And Install The Latest Microsoft Visual C/C++ Redistributable 2015-2026 (x86/x64) (Required)
+- [Download 32 Bit (x86)](https://aka.ms/vs/18/release/vc_redist.x86.exe) | [Download 64 Bit (x64)](https://aka.ms/vs/18/release/vc_redist.x64.exe)
 - Download Hyper-V-Switch Portable Zip File
 - [Download Mirror 1](https://github.com/rc-chuah/Hyper-V-Switch/releases/latest) | [Download Mirror 2](https://github.com/RaynerSec/Hyper-V-Switch/releases/latest)
 - Unzip Hyper-V-Switch Portable Zip File
