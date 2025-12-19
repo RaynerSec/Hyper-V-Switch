@@ -71,7 +71,7 @@ BEGIN
             VALUE "FileDescription", "Hyper-V-Switch"
             VALUE "FileVersion", "1.0.2.0"
             VALUE "InternalName", "Hyper-V-Switch.exe"
-            VALUE "LegalCopyright", "Copyright (C) 2022-2025 RaynerSec. Licensed Under The GNU GPL v3.0."
+            VALUE "LegalCopyright", "Copyright (C) 2022-2026 RaynerSec. Licensed Under The GNU GPL v3.0."
             VALUE "OriginalFilename", "Hyper-V-Switch.exe"
             VALUE "ProductName", "Hyper-V-Switch"
             VALUE "ProductVersion", "1.0.2.0"
